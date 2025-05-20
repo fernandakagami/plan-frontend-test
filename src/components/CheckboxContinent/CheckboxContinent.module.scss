@@ -1,0 +1,21 @@
+@use '@/styles/variables' as vars;
+
+.check-box-group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  label span {
+    > span {
+      border-color: vars.$white !important;
+
+      &::after {
+        top: 45%;
+        inset-inline-start: 32%;
+        width: 6px;
+        height: 11px;
+      }
+    }
+  }
+}

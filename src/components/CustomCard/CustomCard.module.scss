@@ -1,0 +1,58 @@
+@use '@/styles/variables' as vars;
+
+.card-title {
+  color: vars.$white;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.continent-image {
+  object-fit: cover;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .country-name {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 23px;
+    color: vars.$gray_dark;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+   .capital-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 4px;
+    margin-bottom: 3px;
+
+    .capital-name {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 100%;
+      color: vars.$gray_dark;
+      width: 100%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+   }
+
+  .button-title {
+    font-style: italic;
+  }
+}
+
+

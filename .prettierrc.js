@@ -1,8 +1,15 @@
+const plugin = require("eslint-plugin-react");
+
 module.exports = {
-  jsxBracketSameLine: true,
-  singleQuote: true,
-  trailingComma: 'all',
+  tabWidth: 2,
+  endOfLine: 'auto',
   printWidth: 80,
-  semi: false,
-  endOfLine: 'auto'
+  singleQuote: false,
+  trailingComma: 'all',
+  arrowParens: "always",
+  bracketSpacing: true,
+  semi: true,
+  useTabs: true,
+  jsxBracketSameLine: true,
+  plugins: ["prettier-plugin-tailwindcss"]
 };

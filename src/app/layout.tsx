@@ -2,14 +2,15 @@ import React from 'react'
 import { ToastContainer } from 'react-toastify'
 
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Exo } from 'next/font/google'
 
+import { Footer } from '@/components/Footer'
 import { Providers } from '@/components/Providers'
 
 import '@/styles/globals.scss'
 import 'react-toastify/dist/ReactToastify.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const exo = Exo({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Plan',
@@ -23,8 +24,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Providers>{children}</Providers>
+      <body className={exo.className}>
+        <Providers>
+          {children}
+          <Footer />
+        </Providers>
         <ToastContainer />
       </body>
     </html>

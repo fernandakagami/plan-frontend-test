@@ -33,14 +33,13 @@ A aplicação será um catálogo de países com recursos de filtragem e visualiz
 ## ⭐ Layout
 
 Segue links do layout para aplicação:
-  - [Figma Componentes](https://www.figma.com/design/uqRKSNiAtLlHWzg6qs7J0v/TESTE-FRONT-PLAN?node-id=0-1&p=f)
-  - [Figma Apresentação](https://www.figma.com/proto/uqRKSNiAtLlHWzg6qs7J0v/TESTE-FRONT-PLAN?node-id=2-615&t=jAEkXLJ8nXUMIDD4-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
-​
--
 
-**A responsividade deve ser aplicada para manter o layout mais coerente com o definido acima.**
+- [Figma Componentes](https://www.figma.com/design/uqRKSNiAtLlHWzg6qs7J0v/TESTE-FRONT-PLAN?node-id=0-1&p=f)
+- [Figma Apresentação](https://www.figma.com/proto/uqRKSNiAtLlHWzg6qs7J0v/TESTE-FRONT-PLAN?node-id=2-615&t=jAEkXLJ8nXUMIDD4-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
+  ​
+- **A responsividade deve ser aplicada para manter o layout mais coerente com o definido acima.**
 
----
+  ***
 
 ​
 
@@ -127,11 +126,16 @@ Este projeto deve ser utilizado como base para o desenvolvimento do seu teste. A
 
 ## ⭐ Instruções
 
-​
+1. git clone repositório.
+2. npm install
+3. npm run dev
+   ​
 
 ## ⭐ Breve explicação
 
-​
+- ant-design​: lib de componentes
+- tanstack/react-query: lib para gerenciar requisições assíncronas de forma eficiente, com cache e atualização automática.
+- nuqs: lib para gerenciar estado de paramêtros de pesquisa.
 
 ## ⭐ Link do deploy (se houver)
 

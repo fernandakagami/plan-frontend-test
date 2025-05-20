@@ -1,0 +1,82 @@
+@use '@/styles/variables' as vars;
+
+.card-container {
+  width: 100%;
+
+  .card-title {
+    color: vars.$white;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .continent-image {
+    object-fit: cover;
+  }
+
+  .card-content {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    justify-items: center;
+    gap: 40px;
+
+    .flag-title {
+      color: vars.$gray_dark;
+      line-height: 100%;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .card-description {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .country-name {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 23px;
+        color: vars.$gray_dark;
+        margin: 20px 0 40px;
+      }
+
+      .description-column {
+        display: grid;
+        grid-template-columns: 110px 1fr;
+        gap: 20px;
+        color: vars.$gray_dark;
+        font-size: 18px;
+        line-height: 23px;
+
+        .description-title {
+          display: flex;
+          flex-direction: column;
+          text-align: end;
+          gap: 3px;
+          font-weight: 400;
+        }
+
+        .description-details {
+          display: flex;
+          flex-direction: column;
+          text-align: start;
+          gap: 3px;
+          font-weight: 700;
+        }
+      }
+
+      button {
+        width: 270px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+
+        .button-title {
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+

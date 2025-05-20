@@ -1,0 +1,30 @@
+@use '@/styles/variables' as vars;
+
+.list-container {
+  margin-bottom: 38px !important;
+  width: 100%;
+
+  .action-button {
+    border-radius: 20px !important;
+    border: 3px solid vars.$white !important;
+    width: 50px !important;
+    height: 50px !important;
+    background-color: transparent !important;
+
+    svg {
+      color: vars.$white !important;
+    }
+  }
+
+  .page-button {
+    border: 100% !important;
+    width: 50px !important;
+    height: 50px !important;
+    border: 3px solid vars.$white !important;
+    background-color: transparent !important;
+
+    svg {
+      color: vars.$white !important;
+    }
+  }
+}

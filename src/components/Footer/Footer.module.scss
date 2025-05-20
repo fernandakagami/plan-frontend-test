@@ -1,0 +1,32 @@
+@use '@/styles/variables' as vars;
+
+.footer-container {
+  height: 130px;
+  background-color: vars.$black;
+
+  .footer-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+
+    .footer-copyright-container {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      gap: 10px;
+
+      .footer-copyright {
+        color: vars.$white;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 100%;
+      }
+    }
+  }
+}

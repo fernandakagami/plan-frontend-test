@@ -1,0 +1,20 @@
+@use '@/styles/variables' as vars;
+
+.inputWrapper {
+  width: 100%;
+
+  input::placeholder {
+    color: vars.$black;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .icon {
+    color: vars.$white;
+    font-size: 20px;
+    svg{
+      transform: rotate(80deg);
+    }
+  }
+}

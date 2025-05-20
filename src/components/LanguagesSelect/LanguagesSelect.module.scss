@@ -1,0 +1,17 @@
+@use '@/styles/variables' as vars;
+
+.select {
+  width: 100%;
+
+  div {
+    padding-left: 20px;
+    color: vars.$black;
+
+    .select-placeholder {
+      color: vars.$black;
+      font-style: italic;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
